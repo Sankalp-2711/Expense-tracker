@@ -50,7 +50,7 @@ exports.addTransaction = async (req, res, next) => {
 };
 
 //@desc Delete transaction
-//@route POST /api/v1/transactions/:id
+//@route DELETE /api/v1/transactions/:id
 //@access Public
 exports.deleteTransaction = async (req, res, next) => {
   try {

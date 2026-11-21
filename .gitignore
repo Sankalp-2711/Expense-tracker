@@ -110,3 +110,6 @@ dist
 .vscode-test
 
 /config/config.env
+
+# Client production build output
+client/build
